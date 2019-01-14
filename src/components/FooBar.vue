@@ -1,9 +1,12 @@
 <template>
-  <div>Foo</div>
+  <div>{{ message }}</div>
 </template>
 
 <script>
 export default {
-  name: 'FooBar'
+  name: 'FooBar',
+  data: () => ({
+    message: 'FooBar'
+  })
 }
 </script>
